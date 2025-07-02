@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lokesh Chowdary Katta - Portfolio</title>
+        <meta name="description" content="Machine Learning Engineer passionate about building complex things.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <!-- Scripts -->
+    <script src="./js/main.js" defer></script>
+</head>
+<body class="bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
+    <div id="spotlight" class="pointer-events-none fixed inset-0 z-30 transition duration-300"></div>
+    
+    <div class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-16 lg:py-0">
+        <a href="#content" class="absolute left-0 top-0 block -translate-x-full rounded bg-gradient-to-br from-teal-400 via-blue-500 to-purple-600 px-4 py-3 text-sm font-bold uppercase tracking-widest text-white focus-visible:translate-x-0">Skip to Content</a>
+        
+        <div class="lg:flex lg:justify-between lg:gap-4">
+            <!-- Header/Sidebar -->
+            <header class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
+                <div>
+                    <h1 class="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
+                        <a href="/">Lokesh Chowdary Katta</a>
+                    </h1>
+                    <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
+                        Machine Learning Engineer
+                    </h2>
+                    <p class="mt-4 max-w-xs leading-normal">
+                        Engineer passionate about building complex things.
+                    </p>
+                    
+                    <!-- Navigation -->
+                    <nav class="nav hidden lg:block" aria-label="In-page jump links">
+                        <ul class="mt-16 w-max">
+                            <li>
+                                <a class="group flex items-center py-3 active" href="#about">
+                                    <span class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                                    <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">About</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="group flex items-center py-3" href="#experience">
+                                    <span class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                                    <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Experience</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="group flex items-center py-3" href="#projects">
+                                    <span class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                                    <span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Projects</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                
+                <!-- Social Links -->
+                <ul class="ml-1 mt-8 flex items-center" aria-label="Social media">
+                    <li class="mr-5 shrink-0 text-xs">
+                        <a class="block hover:text-slate-200" href="https://github.com/LokeshChowdary05" target="_blank" rel="noreferrer noopener" aria-label="GitHub (opens in a new tab)" title="GitHub">
+                            <span class="sr-only">GitHub</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="h-6 w-6" aria-hidden="true">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mr-5 shrink-0 text-xs">
+                        <a class="block hover:text-slate-200" href="https://www.linkedin.com/in/lokesh-chowdary-katta-/" target="_blank" rel="noreferrer noopener" aria-label="LinkedIn (opens in a new tab)" title="LinkedIn">
+                            <span class="sr-only">LinkedIn</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-6 w-6" aria-hidden="true">
+                                <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mr-5 shrink-0 text-xs">
+                        <a class="block hover:text-slate-200" href="https://github.com/LokeshChowdary05" target="_blank" rel="noreferrer noopener" aria-label="Git (opens in a new tab)" title="Git">
+                            <span class="sr-only">Git</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="h-6 w-6" aria-hidden="true">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </header>
+
+            <!-- Main Content -->
+            <main id="content" class="pt-24 lg:w-1/2 lg:py-24">
+                <!-- About Section -->
+                <section id="about" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="About me">
+                    <div class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+                        <h2 class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">About</h2>
+                    </div>
+                    <div>
+                        <p class="mb-4">
+                        I'm a Developer who is interested in working on Machine Learning Models, Building and Designing Great Web Applications. My work lies in working with Machine Learning Models, LLMs, NLP, etc.
+                        </p>
+                        <p class="mb-4">
+                        Currently, I'm working as a Software Intern at Resilence Inc, working with Frontend and Backend Applications.
+                        </p>
+                        <p class="mb-4">
+                        While I'm not working, I engage my time in learning new technologies, constantly improving day by day.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Experience Section -->
+                <section id="experience" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="Work experience">
+                    <div class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+                        <h2 class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">Experience</h2>
+                    </div>
+                    <div>
+                        <ol class="group/list">
+                            <li class="mb-12">
+                                <div class="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                                    <div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                            <header class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="July 2025 to Present">July 2025 — Present</header>
+                            <div class="z-10 sm:col-span-6">
+                                <h3 class="font-medium leading-snug text-slate-200">
+                                    <div>
+                                        <a class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base" href="#" target="_blank" rel="noreferrer noopener" aria-label="AI Software Development Intern at Resilience Inc">
+                                            <span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                                            <span>AI Software Development Intern · <span class="inline-block">Resilience Inc
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
+                                                </svg>
+                                            </span></span>
+                                        </a>
+                                    </div>
+                                </h3>
+                                <p class="mt-2 text-sm leading-normal">Collaborating with cross-functional teams to develop, review, and refine project plans and software architecture, contributing to both frontend and backend solutions. Assisting in Designing and Implementing Scalable AI Applications.</p>
+                            </div>
+                        </div>
+                    </li>
+                        </ol>
+                                <div class="mt-12">
+                                    <a class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 font-semibold text-slate-200 group/link text-base" href="file:///E:/Job%20Application/Job_Application_New/Lokesh%20Chowdary%20Katta's%20Resume.pdf" target="_blank" rel="noreferrer noopener" aria-label="View Full Résumé">
+                                        <span>View Full <span class="inline-block">Résumé
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible:link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+                                                <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
+                                            </svg>
+                                        </span></span>
+                                    </a>
+                                </div>
+                    </div>
+                </section>
+
+                <!-- Projects Section -->
+                <section id="projects" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="Selected projects">
+                    <div class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+                        <h2 class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">Projects</h2>
+                    </div>
+                    <div>
+                        <ul class="group/list">
+                            <li class="mb-12">
+                                <div class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                                    <div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                                    <div class="z-10 sm:order-2 sm:col-span-6">
+                                        <h3>
+                                            <a class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base" href="https://github.com/LokeshChowdary05/F1-2025_Winner-Predictor" target="_blank" rel="noreferrer noopener" aria-label="F1 2025 Winner Predictor">
+                                                <span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                                                <span>F1 2025 Winner Predictor
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+                                                        <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </h3>
+                                        <p class="mt-2 text-sm leading-normal">Developed advanced ensemble techniques of Statistics and Machine Learning Models to predict Formula 1 Race Winners. Integrated with Interactive Dashboards and Performance analytics, improving reliability by over 30% compared to baseline models.</p>
+                                    </div>
+                                    <img alt="E-Commerce Platform Screenshot" loading="lazy" width="200" height="48" class="aspect-video object-cover rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1" src="./assets/project1.svg">
+                                </div>
+                            </li>
+                            <li class="mb-12">
+                                <div class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                                    <div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                                    <div class="z-10 sm:order-2 sm:col-span-6">
+                                      <h3>
+                                            <a class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base" href="https://github.com/LokeshChowdary05/Multi-Agent-Disease-Diagnosis" target="_blank" rel="noreferrer noopener" aria-label="Multi-Agent Disease Diagnosis">
+                                                <span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                                                <span>Multi-Agent Disease Diagnosis
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+                                                        <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </h3>
+                                        <p class="mt-2 text-sm leading-normal">Designed an Architectural Structure where AI Agents Collaborate for Disease Diagnosis and Generate Medical Reports, improving Diagnosis Services. Automated workflows for Patient Analysis, reducing manual annotation by over 40%.</p>
+                                    </div>
+                                    <img alt="Task Management App Screenshot" loading="lazy" width="200" height="48" class="aspect-video object-cover rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1" src="./assets/project2.svg">
+                                </div>
+                            </li>
+                            <li class="mb-12">
+                                <div class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                                    <div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                                    <div class="z-10 sm:order-2 sm:col-span-6">
+                                        <h3>
+                                            <a class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base" href="https://github.com/LokeshChowdary05/Sign-Language_Learning-Platform" target="_blank" rel="noreferrer noopener" aria-label="Sign Language Learning Platform">
+                                                <span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                                                <span>Sign Language Learning Platform
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+                                                        <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </h3>
+                                        <p class="mt-2 text-sm leading-normal">Developed an interactive sign language learning platform with real-time webcam-based gesture recognition, leveraging MediaPipe/OpenCV for multi-language (ASL, BSL, FSL) support. Built modular quiz and challenge systems, enabling easy extension to new sign languages and adaptive difficulty.</p>
+                                    </div>
+                                    <img alt="Weather Dashboard Screenshot" loading="lazy" width="200" height="48" class="aspect-video object-cover rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1" src="./assets/project3.svg">
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="mt-12">
+                                <a class="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold text-slate-200 group" aria-label="View Full Project Archive" href="https://github.com/LokeshChowdary05?tab=repositories">
+                                    <span>
+                                        <span class="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">View Full Project <span class="inline-block">Archive
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="ml-1 inline-block h-4 w-4 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none" aria-hidden="true">
+                                                <path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd"></path>
+                                            </svg>
+                                        </span></span>
+                                    </span>
+                                </a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Footer -->
+                <footer class="max-w-md pb-16 text-sm text-slate-500 sm:pb-0">
+                    <p>
+                        Loosely designed in <a href="https://www.figma.com/" class="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank" rel="noreferrer noopener" aria-label="Figma (opens in a new tab)">Figma</a> and coded in <a href="https://code.visualstudio.com/" class="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank" rel="noreferrer noopener" aria-label="Visual Studio Code (opens in a new tab)">Visual Studio Code</a>. Built with vanilla HTML, CSS, and JavaScript. All text is set in the <a href="https://rsms.me/inter/" class="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank" rel="noreferrer noopener" aria-label="Inter (opens in a new tab)">Inter</a> typeface.
+                    </p>
+                </footer>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
